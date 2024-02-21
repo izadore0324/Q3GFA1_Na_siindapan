@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let text = "Do you agree to share your information in the site?";
+        if (confirm(text) == true) {
+            var nickname = prompt("Enter your nickname: ", nickname);
+        var height = prompt("Enter your height in inches: ", height);
+        var weight = prompt("Enter your weight in kg: ", weight);
+
+        var convertFeet = height/12;
+        var convertLbs = weight*2.205;
+
+        alert("Name: " + nickname + "\n" + "Height: " + convertFeet + "\n" + "Weight: " + convertLbs + " lbs");
+        }
+        else {
+            alert("User does not wish to share his/her information.");
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
